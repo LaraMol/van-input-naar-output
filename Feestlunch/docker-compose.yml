@@ -1,0 +1,7 @@
+services:
+  python:
+    image: python:latest
+    working_dir: /code
+    command: python3 feestlunch.py
+    volumes: 
+      - ./:/code
